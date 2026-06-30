@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router";
-import Header from "./components/Header";
-import Login from "./pages/Login";
-import Signup from "./pages/Signup";
+import Header from "./components/header";
+import Login from "./pages/login";
+import Signup from "./pages/signup";
 import ProtectedRoute from "./components/protected_route";
 import NotFound from "./pages/not_found";
 import Home from "./pages/home";
