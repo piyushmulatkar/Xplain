@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { useNavigate, useParams } from "react-router";
-import "../styles/Quiz.css";
+import "../styles/quiz.css";
 
 export default function Quiz() {
   const { category } = useParams();

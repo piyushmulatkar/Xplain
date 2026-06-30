@@ -1,4 +1,4 @@
-import "../styles/Home.css";
+import "../styles/home.css";
 import { useNavigate } from "react-router";
 
 export default function Home() {
