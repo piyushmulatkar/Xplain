@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "question": "What is Python?",
+    "options": [
+      "A programming language",
+      "A web browser",
+      "An operating system",
+      "A database"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 2,
+    "question": "Which keyword is used to define a function in Python?",
+    "options": [
+      "function",
+      "func",
+      "def",
+      "define"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 3,
+    "question": "Which symbol is used for comments in Python?",
+    "options": [
+      "//",
+      "<!-- -->",
+      "#",
+      "/* */"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 4,
+    "question": "Which data type is immutable?",
+    "options": [
+      "List",
+      "Dictionary",
+      "Set",
+      "Tuple"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 5,
+    "question": "Which function prints output to the console?",
+    "options": [
+      "display()",
+      "echo()",
+      "print()",
+      "write()"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 6,
+    "question": "Which operator is used for exponentiation?",
+    "options": [
+      "^",
+      "**",
+      "*",
+      "//"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 7,
+    "question": "Which keyword is used to create a class?",
+    "options": [
+      "object",
+      "struct",
+      "class",
+      "new"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 8,
+    "question": "What is the correct file extension for Python files?",
+    "options": [
+      ".pt",
+      ".py",
+      ".python",
+      ".p"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 9,
+    "question": "Which loop is used to iterate over a sequence?",
+    "options": [
+      "repeat",
+      "foreach",
+      "for",
+      "loop"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 10,
+    "question": "Which keyword exits a loop immediately?",
+    "options": [
+      "continue",
+      "stop",
+      "exit",
+      "break"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 11,
+    "question": "Which keyword skips the current iteration of a loop?",
+    "options": [
+      "continue",
+      "skip",
+      "pass",
+      "next"
+    ],
+    "answer": 0
+  },
+  {
+    "id": 12,
+    "question": "Which built-in type stores key-value pairs?",
+    "options": [
+      "Tuple",
+      "Dictionary",
+      "List",
+      "Set"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 13,
+    "question": "Which function returns the length of a list?",
+    "options": [
+      "size()",
+      "count()",
+      "length()",
+      "len()"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 14,
+    "question": "Which keyword is used for exception handling?",
+    "options": [
+      "catch",
+      "try",
+      "handle",
+      "error"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 15,
+    "question": "Which statement is used when no action is required?",
+    "options": [
+      "continue",
+      "skip",
+      "pass",
+      "ignore"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 16,
+    "question": "Which function converts a string to an integer?",
+    "options": [
+      "number()",
+      "float()",
+      "str()",
+      "int()"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 17,
+    "question": "Which collection type does not allow duplicate elements?",
+    "options": [
+      "List",
+      "Tuple",
+      "Set",
+      "Dictionary"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 18,
+    "question": "What is the output type of input()?",
+    "options": [
+      "Integer",
+      "Boolean",
+      "String",
+      "Float"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 19,
+    "question": "Which keyword imports a module?",
+    "options": [
+      "include",
+      "require",
+      "import",
+      "using"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 20,
+    "question": "Which statement correctly checks equality?",
+    "options": [
+      "=",
+      "==",
+      "!=",
+      ":="
+    ],
+    "answer": 1
+  }
+]

@@ -1,0 +1,79 @@
+# =========================
+# Django
+# =========================
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+db.sqlite3
+db.sqlite3-journal
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+backend/myenv/
+venv/
+env/
+ENV/
+
+# Django media and static (if generated)
+media/
+staticfiles/
+
+# Migrations (optional - uncomment if you don't want them)
+# **/migrations/
+# !**/migrations/__init__.py
+
+# =========================
+# Python
+# =========================
+.python-version
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.cache/
+
+# IDEs
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# =========================
+# React
+# =========================
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# Environment files
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# =========================
+# Misc
+# =========================
+*.swp
+*.swo

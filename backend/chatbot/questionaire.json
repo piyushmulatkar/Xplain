@@ -1,0 +1,1202 @@
+[
+  {
+    "question": "What is Python?",
+    "answer": "Python is a high-level interpreted programming language known for readability."
+  },
+  {
+    "question": "Who created Python?",
+    "answer": "Python was created by Guido van Rossum."
+  },
+  {
+    "question": "What is a variable in Python?",
+    "answer": "A variable is a name used to store a value."
+  },
+  {
+    "question": "What is a string?",
+    "answer": "A string is a sequence of characters enclosed in quotes."
+  },
+  {
+    "question": "What is an integer?",
+    "answer": "An integer is a whole number without decimals."
+  },
+  {
+    "question": "What is a float?",
+    "answer": "A float is a number containing a decimal point."
+  },
+  {
+    "question": "What is a boolean?",
+    "answer": "A boolean value is either True or False."
+  },
+  {
+    "question": "What is a list?",
+    "answer": "A list is an ordered, mutable collection."
+  },
+  {
+    "question": "What is a tuple?",
+    "answer": "A tuple is an ordered, immutable collection."
+  },
+  {
+    "question": "What is a dictionary?",
+    "answer": "A dictionary stores key-value pairs."
+  },
+  {
+    "question": "What is a set?",
+    "answer": "A set stores unique unordered values."
+  },
+  {
+    "question": "What is a function?",
+    "answer": "A function is a reusable block of code."
+  },
+  {
+    "question": "What does def do?",
+    "answer": "The def keyword defines a function."
+  },
+  {
+    "question": "What is a parameter?",
+    "answer": "A parameter is an input accepted by a function."
+  },
+  {
+    "question": "What is a return statement?",
+    "answer": "It sends a value back from a function."
+  },
+  {
+    "question": "What is a loop?",
+    "answer": "A loop repeats code execution."
+  },
+  {
+    "question": "What is a for loop?",
+    "answer": "A for loop iterates over a sequence."
+  },
+  {
+    "question": "What is a while loop?",
+    "answer": "A while loop runs while a condition is true."
+  },
+  {
+    "question": "What is an if statement?",
+    "answer": "It executes code conditionally."
+  },
+  {
+    "question": "What is elif?",
+    "answer": "elif checks additional conditions after if."
+  },
+  {
+    "question": "What is else?",
+    "answer": "else runs when previous conditions are false."
+  },
+  {
+    "question": "What is a class?",
+    "answer": "A class is a blueprint for creating objects."
+  },
+  {
+    "question": "What is an object?",
+    "answer": "An object is an instance of a class."
+  },
+  {
+    "question": "What is inheritance?",
+    "answer": "Inheritance allows one class to reuse another."
+  },
+  {
+    "question": "What is polymorphism?",
+    "answer": "Polymorphism allows different behavior through a common interface."
+  },
+  {
+    "question": "What is encapsulation?",
+    "answer": "Encapsulation hides internal implementation details."
+  },
+  {
+    "question": "What is abstraction?",
+    "answer": "Abstraction hides complexity and shows essentials."
+  },
+  {
+    "question": "What is an exception?",
+    "answer": "An exception is a runtime error."
+  },
+  {
+    "question": "What is try-except?",
+    "answer": "It handles exceptions gracefully."
+  },
+  {
+    "question": "What is finally?",
+    "answer": "finally always executes after try-except."
+  },
+  {
+    "question": "What is a module?",
+    "answer": "A module is a Python file containing code."
+  },
+  {
+    "question": "What is a package?",
+    "answer": "A package is a collection of modules."
+  },
+  {
+    "question": "What is import?",
+    "answer": "import loads a module into a program."
+  },
+  {
+    "question": "What is pip?",
+    "answer": "pip is Python's package manager."
+  },
+  {
+    "question": "What is virtualenv?",
+    "answer": "virtualenv creates isolated Python environments."
+  },
+  {
+    "question": "What is PEP 8?",
+    "answer": "PEP 8 is Python's style guide."
+  },
+  {
+    "question": "What is list comprehension?",
+    "answer": "It creates lists using concise syntax."
+  },
+  {
+    "question": "What is a lambda function?",
+    "answer": "A lambda is a small anonymous function."
+  },
+  {
+    "question": "What is map()?",
+    "answer": "map() applies a function to items in an iterable."
+  },
+  {
+    "question": "What is filter()?",
+    "answer": "filter() selects items matching a condition."
+  },
+  {
+    "question": "What is reduce()?",
+    "answer": "reduce() combines iterable values into one result."
+  },
+  {
+    "question": "What is recursion?",
+    "answer": "Recursion occurs when a function calls itself."
+  },
+  {
+    "question": "What is slicing?",
+    "answer": "Slicing extracts portions of sequences."
+  },
+  {
+    "question": "What is indexing?",
+    "answer": "Indexing accesses elements by position."
+  },
+  {
+    "question": "What is a generator?",
+    "answer": "A generator yields values lazily."
+  },
+  {
+    "question": "What does yield do?",
+    "answer": "yield produces values without ending a function."
+  },
+  {
+    "question": "What is an iterator?",
+    "answer": "An iterator returns elements one at a time."
+  },
+  {
+    "question": "What is __init__?",
+    "answer": "__init__ initializes object attributes."
+  },
+  {
+    "question": "What is self?",
+    "answer": "self refers to the current object instance."
+  },
+  {
+    "question": "What is __name__?",
+    "answer": "__name__ stores the module name."
+  },
+  {
+    "question": "What is __main__?",
+    "answer": "__main__ indicates direct script execution."
+  },
+  {
+    "question": "What is file handling?",
+    "answer": "File handling reads and writes files."
+  },
+  {
+    "question": "How do you open a file?",
+    "answer": "Use the open() function."
+  },
+  {
+    "question": "What is read()?",
+    "answer": "read() retrieves file content."
+  },
+  {
+    "question": "What is write()?",
+    "answer": "write() stores content in a file."
+  },
+  {
+    "question": "What is append mode?",
+    "answer": "Append mode adds data to the end of a file."
+  },
+  {
+    "question": "What is JSON?",
+    "answer": "JSON is a lightweight data exchange format."
+  },
+  {
+    "question": "How do you parse JSON in Python?",
+    "answer": "Use the json module."
+  },
+  {
+    "question": "What is a decorator?",
+    "answer": "A decorator modifies function behavior."
+  },
+  {
+    "question": "What is @property?",
+    "answer": "@property creates managed attributes."
+  },
+  {
+    "question": "What is a context manager?",
+    "answer": "A context manager manages resources automatically."
+  },
+  {
+    "question": "What does with do?",
+    "answer": "with simplifies resource handling."
+  },
+  {
+    "question": "What is type casting?",
+    "answer": "Type casting converts values between types."
+  },
+  {
+    "question": "What is isinstance()?",
+    "answer": "isinstance() checks an object's type."
+  },
+  {
+    "question": "What is len()?",
+    "answer": "len() returns the length of an object."
+  },
+  {
+    "question": "What is range()?",
+    "answer": "range() generates a sequence of numbers."
+  },
+  {
+    "question": "What is enumerate()?",
+    "answer": "enumerate() provides indexes and values."
+  },
+  {
+    "question": "What is zip()?",
+    "answer": "zip() combines iterables element-wise."
+  },
+  {
+    "question": "What is sorted()?",
+    "answer": "sorted() returns a sorted sequence."
+  },
+  {
+    "question": "What is deepcopy?",
+    "answer": "deepcopy creates independent object copies."
+  },
+  {
+    "question": "What is shallow copy?",
+    "answer": "A shallow copy shares nested references."
+  },
+  {
+    "question": "What is NumPy?",
+    "answer": "NumPy provides efficient numerical arrays."
+  },
+  {
+    "question": "What is Pandas?",
+    "answer": "Pandas is used for data analysis."
+  },
+  {
+    "question": "What is a DataFrame?",
+    "answer": "A DataFrame is a tabular data structure."
+  },
+  {
+    "question": "What is Series in Pandas?",
+    "answer": "Series is a one-dimensional labeled array."
+  },
+  {
+    "question": "What is Matplotlib?",
+    "answer": "Matplotlib creates data visualizations."
+  },
+  {
+    "question": "What is Seaborn?",
+    "answer": "Seaborn simplifies statistical plotting."
+  },
+  {
+    "question": "What is machine learning?",
+    "answer": "Machine learning enables systems to learn from data."
+  },
+  {
+    "question": "What is scikit-learn?",
+    "answer": "scikit-learn is a machine learning library."
+  },
+  {
+    "question": "What is Flask?",
+    "answer": "Flask is a lightweight Python web framework."
+  },
+  {
+    "question": "What is Django?",
+    "answer": "Django is a full-featured Python web framework."
+  },
+  {
+    "question": "What is FastAPI?",
+    "answer": "FastAPI is a modern API framework."
+  },
+  {
+    "question": "What is SQLite?",
+    "answer": "SQLite is a lightweight embedded database."
+  },
+  {
+    "question": "What is SQLAlchemy?",
+    "answer": "SQLAlchemy is a Python ORM."
+  },
+  {
+    "question": "What is threading?",
+    "answer": "Threading enables concurrent execution."
+  },
+  {
+    "question": "What is multiprocessing?",
+    "answer": "Multiprocessing uses multiple processes."
+  },
+  {
+    "question": "What is GIL?",
+    "answer": "The Global Interpreter Lock limits Python thread execution."
+  },
+  {
+    "question": "What is async programming?",
+    "answer": "Async programming handles tasks without blocking."
+  },
+  {
+    "question": "What is asyncio?",
+    "answer": "asyncio supports asynchronous programming."
+  },
+  {
+    "question": "What is a coroutine?",
+    "answer": "A coroutine can pause and resume execution."
+  },
+  {
+    "question": "What is f-string?",
+    "answer": "An f-string formats strings conveniently."
+  },
+  {
+    "question": "What is unpacking?",
+    "answer": "Unpacking assigns iterable elements to variables."
+  },
+  {
+    "question": "What is *args?",
+    "answer": "*args accepts variable positional arguments."
+  },
+  {
+    "question": "What is **kwargs?",
+    "answer": "**kwargs accepts variable keyword arguments."
+  },
+  {
+    "question": "What is a docstring?",
+    "answer": "A docstring documents code functionality."
+  },
+  {
+    "question": "What is pytest?",
+    "answer": "pytest is a Python testing framework."
+  },
+  {
+    "question": "What is unit testing?",
+    "answer": "Unit testing verifies individual components."
+  },
+  {
+    "question": "What is debugging?",
+    "answer": "Debugging finds and fixes program errors."
+  },
+  {
+    "question": "What is memoization?",
+    "answer": "Memoization caches results of expensive function calls."
+  },
+  {
+    "question": "What is dynamic typing?",
+    "answer": "Dynamic typing determines types at runtime."
+  },
+  {
+    "question": "What is type hinting?",
+    "answer": "Type hinting documents expected data types."
+  },
+  {
+    "question": "What is a frozen set?",
+    "answer": "A frozenset is an immutable set."
+  },
+  {
+    "question": "What is an abstract base class?",
+    "answer": "An abstract base class defines required methods."
+  },
+  {
+    "question": "What is None in Python?",
+    "answer": "None represents the absence of a value."
+  },
+  {
+    "question": "What is a keyword in Python?",
+    "answer": "A keyword is a reserved word with special meaning."
+  },
+  {
+    "question": "What is indentation?",
+    "answer": "Indentation defines code blocks in Python."
+  },
+  {
+    "question": "What does pass do?",
+    "answer": "pass is a placeholder that performs no action."
+  },
+  {
+    "question": "What does break do?",
+    "answer": "break exits the current loop."
+  },
+  {
+    "question": "What does continue do?",
+    "answer": "continue skips to the next loop iteration."
+  },
+  {
+    "question": "What is a nested loop?",
+    "answer": "A nested loop is a loop inside another loop."
+  },
+  {
+    "question": "What is a nested function?",
+    "answer": "A nested function is defined inside another function."
+  },
+  {
+    "question": "What is scope?",
+    "answer": "Scope determines where a variable is accessible."
+  },
+  {
+    "question": "What is a global variable?",
+    "answer": "A global variable is accessible throughout a module."
+  },
+  {
+    "question": "What is a local variable?",
+    "answer": "A local variable exists only inside a function."
+  },
+  {
+    "question": "What is the global keyword?",
+    "answer": "global allows modification of a global variable."
+  },
+  {
+    "question": "What is the nonlocal keyword?",
+    "answer": "nonlocal accesses variables from enclosing scopes."
+  },
+  {
+    "question": "What is variable unpacking?",
+    "answer": "Variable unpacking assigns multiple values at once."
+  },
+  {
+    "question": "What is chaining comparison?",
+    "answer": "It combines multiple comparisons in one expression."
+  },
+  {
+    "question": "What is identity in Python?",
+    "answer": "Identity checks whether objects are the same instance."
+  },
+  {
+    "question": "What does is do?",
+    "answer": "is compares object identities."
+  },
+  {
+    "question": "What does == do?",
+    "answer": "== compares object values."
+  },
+  {
+    "question": "What is mutable data?",
+    "answer": "Mutable data can be changed after creation."
+  },
+  {
+    "question": "What is immutable data?",
+    "answer": "Immutable data cannot be changed after creation."
+  },
+  {
+    "question": "What is a byte string?",
+    "answer": "A byte string stores binary data."
+  },
+  {
+    "question": "What is bytes?",
+    "answer": "bytes is an immutable sequence of byte values."
+  },
+  {
+    "question": "What is bytearray?",
+    "answer": "bytearray is a mutable sequence of bytes."
+  },
+  {
+    "question": "What is Unicode?",
+    "answer": "Unicode is a standard for text representation."
+  },
+  {
+    "question": "What is encoding?",
+    "answer": "Encoding converts text into bytes."
+  },
+  {
+    "question": "What is decoding?",
+    "answer": "Decoding converts bytes into text."
+  },
+  {
+    "question": "What is a regular expression?",
+    "answer": "A regular expression matches text patterns."
+  },
+  {
+    "question": "What is the re module?",
+    "answer": "The re module provides regex support."
+  },
+  {
+    "question": "What is split()?",
+    "answer": "split() divides a string into parts."
+  },
+  {
+    "question": "What is join()?",
+    "answer": "join() combines strings into one string."
+  },
+  {
+    "question": "What is strip()?",
+    "answer": "strip() removes leading and trailing whitespace."
+  },
+  {
+    "question": "What is replace()?",
+    "answer": "replace() substitutes text within a string."
+  },
+  {
+    "question": "What is an argument?",
+    "answer": "An argument is a value passed to a function."
+  },
+  {
+    "question": "What is a default argument?",
+    "answer": "A default argument provides a fallback value."
+  },
+  {
+    "question": "What is a keyword argument?",
+    "answer": "A keyword argument is passed using parameter names."
+  },
+  {
+    "question": "What is a positional argument?",
+    "answer": "A positional argument is matched by order."
+  },
+  {
+    "question": "What is method overloading?",
+    "answer": "Python simulates overloading using flexible arguments."
+  },
+  {
+    "question": "What is method overriding?",
+    "answer": "Overriding replaces inherited method behavior."
+  },
+  {
+    "question": "What is super()?",
+    "answer": "super() accesses methods from a parent class."
+  },
+  {
+    "question": "What is multiple inheritance?",
+    "answer": "Multiple inheritance derives from multiple classes."
+  },
+  {
+    "question": "What is composition?",
+    "answer": "Composition builds classes using other objects."
+  },
+  {
+    "question": "What is a magic method?",
+    "answer": "A magic method customizes object behavior."
+  },
+  {
+    "question": "What is __str__?",
+    "answer": "__str__ defines a human-readable string representation."
+  },
+  {
+    "question": "What is __repr__?",
+    "answer": "__repr__ defines an official object representation."
+  },
+  {
+    "question": "What is __len__?",
+    "answer": "__len__ returns an object's length."
+  },
+  {
+    "question": "What is __iter__?",
+    "answer": "__iter__ returns an iterator object."
+  },
+  {
+    "question": "What is __next__?",
+    "answer": "__next__ returns the next iterator value."
+  },
+  {
+    "question": "What is duck typing?",
+    "answer": "Duck typing focuses on behavior rather than type."
+  },
+  {
+    "question": "What is monkey patching?",
+    "answer": "Monkey patching modifies code at runtime."
+  },
+  {
+    "question": "What is dependency injection?",
+    "answer": "Dependency injection supplies dependencies externally."
+  },
+  {
+    "question": "What is a namespace?",
+    "answer": "A namespace maps names to objects."
+  },
+  {
+    "question": "What is garbage collection?",
+    "answer": "Garbage collection reclaims unused memory."
+  },
+  {
+    "question": "What is reference counting?",
+    "answer": "Reference counting tracks object usage."
+  },
+  {
+    "question": "What is memory management?",
+    "answer": "Memory management controls allocation and release of memory."
+  },
+  {
+    "question": "What is a heap?",
+    "answer": "The heap stores dynamically allocated objects."
+  },
+  {
+    "question": "What is a stack frame?",
+    "answer": "A stack frame stores function call information."
+  },
+  {
+    "question": "What is introspection?",
+    "answer": "Introspection examines objects at runtime."
+  },
+  {
+    "question": "What is dir()?",
+    "answer": "dir() lists an object's attributes."
+  },
+  {
+    "question": "What is help()?",
+    "answer": "help() displays documentation information."
+  },
+  {
+    "question": "What is getattr()?",
+    "answer": "getattr() retrieves an attribute dynamically."
+  },
+  {
+    "question": "What is setattr()?",
+    "answer": "setattr() assigns an attribute dynamically."
+  },
+  {
+    "question": "What is hasattr()?",
+    "answer": "hasattr() checks for an attribute."
+  },
+  {
+    "question": "What is delattr()?",
+    "answer": "delattr() removes an attribute."
+  },
+  {
+    "question": "What is eval()?",
+    "answer": "eval() evaluates a Python expression."
+  },
+  {
+    "question": "What is exec()?",
+    "answer": "exec() executes Python code dynamically."
+  },
+  {
+    "question": "What is hash()?",
+    "answer": "hash() returns an object's hash value."
+  },
+  {
+    "question": "What is any()?",
+    "answer": "any() returns True if any item is true."
+  },
+  {
+    "question": "What is all()?",
+    "answer": "all() returns True if all items are true."
+  },
+  {
+    "question": "What is open source software?",
+    "answer": "Open source software allows public access to source code."
+  },
+  {
+    "question": "What is a wheel file?",
+    "answer": "A wheel file is a Python package distribution format."
+  },
+  {
+    "question": "What is requirements.txt?",
+    "answer": "requirements.txt lists project dependencies."
+  },
+  {
+    "question": "What is venv?",
+    "answer": "venv creates virtual environments in Python."
+  },
+  {
+    "question": "What is pycache?",
+    "answer": "pycache stores compiled bytecode files."
+  },
+  {
+    "question": "What is bytecode?",
+    "answer": "Bytecode is an intermediate executable representation."
+  },
+  {
+    "question": "What is CPython?",
+    "answer": "CPython is the reference Python implementation."
+  },
+  {
+    "question": "What is PyPy?",
+    "answer": "PyPy is a Python implementation with JIT compilation."
+  },
+  {
+    "question": "What is Jupyter Notebook?",
+    "answer": "Jupyter Notebook is an interactive coding environment."
+  },
+  {
+    "question": "What is an API?",
+    "answer": "An API enables communication between software systems."
+  },
+  {
+    "question": "What is REST API?",
+    "answer": "A REST API follows REST architectural principles."
+  },
+  {
+    "question": "What is requests library?",
+    "answer": "requests simplifies HTTP requests in Python."
+  },
+  {
+    "question": "What is web scraping?",
+    "answer": "Web scraping extracts data from websites."
+  },
+  {
+    "question": "What is BeautifulSoup?",
+    "answer": "BeautifulSoup parses HTML and XML documents."
+  },
+  {
+    "question": "What is CSV?",
+    "answer": "CSV is a text format for tabular data."
+  },
+  {
+    "question": "How do you read CSV files?",
+    "answer": "Use the csv module or pandas."
+  },
+  {
+    "question": "What is logging?",
+    "answer": "Logging records application events and messages."
+  },
+  {
+    "question": "What is the logging module?",
+    "answer": "The logging module provides logging utilities."
+  },
+  {
+    "question": "What is profiling?",
+    "answer": "Profiling measures program performance."
+  },
+  {
+    "question": "What is time complexity?",
+    "answer": "Time complexity describes algorithm efficiency."
+  },
+  {
+    "question": "What is space complexity?",
+    "answer": "Space complexity describes memory usage."
+  },
+  {
+    "question": "What is Big O notation?",
+    "answer": "Big O notation expresses algorithm growth rates."
+  },
+  {
+    "question": "What is binary search?",
+    "answer": "Binary search finds values in sorted data."
+  },
+  {
+    "question": "What is linear search?",
+    "answer": "Linear search checks items sequentially."
+  },
+  {
+    "question": "What is a stack data structure?",
+    "answer": "A stack follows Last In First Out order."
+  },
+  {
+    "question": "What is a queue data structure?",
+    "answer": "A queue follows First In First Out order."
+  },
+  {
+    "question": "What is a linked list?",
+    "answer": "A linked list stores nodes connected by references."
+  },
+  {
+    "question": "What is a tree data structure?",
+    "answer": "A tree organizes data hierarchically."
+  },
+  {
+    "question": "What is a graph data structure?",
+    "answer": "A graph represents nodes and connections."
+  },
+  {
+    "question": "What is a metaclass?",
+    "answer": "A metaclass defines how classes are created."
+  },
+  {
+    "question": "What is metaprogramming?",
+    "answer": "Metaprogramming writes code that manipulates code."
+  },
+  {
+    "question": "What is a descriptor?",
+    "answer": "A descriptor customizes attribute access."
+  },
+  {
+    "question": "What is __get__?",
+    "answer": "__get__ controls attribute retrieval."
+  },
+  {
+    "question": "What is __set__?",
+    "answer": "__set__ controls attribute assignment."
+  },
+  {
+    "question": "What is __delete__?",
+    "answer": "__delete__ controls attribute deletion."
+  },
+  {
+    "question": "What is a singleton pattern?",
+    "answer": "A singleton pattern allows only one instance."
+  },
+  {
+    "question": "What is a factory pattern?",
+    "answer": "A factory pattern creates objects through a method."
+  },
+  {
+    "question": "What is dependency management?",
+    "answer": "Dependency management tracks project libraries."
+  },
+  {
+    "question": "What is semantic versioning?",
+    "answer": "Semantic versioning uses major, minor, and patch numbers."
+  },
+  {
+    "question": "What is packaging in Python?",
+    "answer": "Packaging prepares code for distribution."
+  },
+  {
+    "question": "What is PyPI?",
+    "answer": "PyPI is the Python Package Index."
+  },
+  {
+    "question": "What is pip freeze?",
+    "answer": "pip freeze lists installed package versions."
+  },
+  {
+    "question": "What is pip install?",
+    "answer": "pip install downloads and installs packages."
+  },
+  {
+    "question": "What is pip uninstall?",
+    "answer": "pip uninstall removes installed packages."
+  },
+  {
+    "question": "What is an environment variable?",
+    "answer": "An environment variable stores system configuration values."
+  },
+  {
+    "question": "What is os.environ?",
+    "answer": "os.environ provides access to environment variables."
+  },
+  {
+    "question": "What is the os module?",
+    "answer": "The os module interacts with the operating system."
+  },
+  {
+    "question": "What is the sys module?",
+    "answer": "The sys module provides interpreter-related functions."
+  },
+  {
+    "question": "What is sys.argv?",
+    "answer": "sys.argv contains command-line arguments."
+  },
+  {
+    "question": "What is pathlib?",
+    "answer": "pathlib offers object-oriented file paths."
+  },
+  {
+    "question": "What is glob?",
+    "answer": "glob finds files matching patterns."
+  },
+  {
+    "question": "What is shutil?",
+    "answer": "shutil provides high-level file operations."
+  },
+  {
+    "question": "What is pickle?",
+    "answer": "pickle serializes Python objects."
+  },
+  {
+    "question": "What is serialization?",
+    "answer": "Serialization converts objects into storable formats."
+  },
+  {
+    "question": "What is deserialization?",
+    "answer": "Deserialization reconstructs objects from stored data."
+  },
+  {
+    "question": "What is YAML?",
+    "answer": "YAML is a human-readable data format."
+  },
+  {
+    "question": "What is TOML?",
+    "answer": "TOML is a configuration file format."
+  },
+  {
+    "question": "What is configparser?",
+    "answer": "configparser reads INI configuration files."
+  },
+  {
+    "question": "What is datetime?",
+    "answer": "datetime handles dates and times."
+  },
+  {
+    "question": "What is timedelta?",
+    "answer": "timedelta represents a time duration."
+  },
+  {
+    "question": "What is timezone awareness?",
+    "answer": "Timezone awareness tracks time zones explicitly."
+  },
+  {
+    "question": "What is random module?",
+    "answer": "The random module generates pseudo-random values."
+  },
+  {
+    "question": "What is secrets module?",
+    "answer": "The secrets module generates secure random values."
+  },
+  {
+    "question": "What is math module?",
+    "answer": "The math module provides mathematical functions."
+  },
+  {
+    "question": "What is statistics module?",
+    "answer": "The statistics module performs statistical calculations."
+  },
+  {
+    "question": "What is decimal module?",
+    "answer": "The decimal module provides precise decimal arithmetic."
+  },
+  {
+    "question": "What is fractions module?",
+    "answer": "The fractions module represents rational numbers."
+  },
+  {
+    "question": "What is itertools?",
+    "answer": "itertools provides efficient iterator utilities."
+  },
+  {
+    "question": "What is functools?",
+    "answer": "functools contains higher-order function tools."
+  },
+  {
+    "question": "What is partial()?",
+    "answer": "partial() pre-fills function arguments."
+  },
+  {
+    "question": "What is lru_cache?",
+    "answer": "lru_cache caches function results automatically."
+  },
+  {
+    "question": "What is operator module?",
+    "answer": "The operator module supplies functional operators."
+  },
+  {
+    "question": "What is collections module?",
+    "answer": "The collections module offers specialized containers."
+  },
+  {
+    "question": "What is Counter?",
+    "answer": "Counter counts hashable object occurrences."
+  },
+  {
+    "question": "What is defaultdict?",
+    "answer": "defaultdict supplies default values for missing keys."
+  },
+  {
+    "question": "What is deque?",
+    "answer": "deque is a fast double-ended queue."
+  },
+  {
+    "question": "What is namedtuple?",
+    "answer": "namedtuple creates lightweight record objects."
+  },
+  {
+    "question": "What is ChainMap?",
+    "answer": "ChainMap groups multiple dictionaries together."
+  },
+  {
+    "question": "What is heapq?",
+    "answer": "heapq implements heap queue algorithms."
+  },
+  {
+    "question": "What is bisect?",
+    "answer": "bisect performs binary search operations."
+  },
+  {
+    "question": "What is threading.Lock?",
+    "answer": "threading.Lock synchronizes thread access."
+  },
+  {
+    "question": "What is a race condition?",
+    "answer": "A race condition occurs from unsynchronized access."
+  },
+  {
+    "question": "What is a deadlock?",
+    "answer": "A deadlock occurs when tasks wait indefinitely."
+  },
+  {
+    "question": "What is concurrent.futures?",
+    "answer": "concurrent.futures simplifies concurrent execution."
+  },
+  {
+    "question": "What is ThreadPoolExecutor?",
+    "answer": "ThreadPoolExecutor manages worker threads."
+  },
+  {
+    "question": "What is ProcessPoolExecutor?",
+    "answer": "ProcessPoolExecutor manages worker processes."
+  },
+  {
+    "question": "What is async def?",
+    "answer": "async def defines a coroutine function."
+  },
+  {
+    "question": "What is await?",
+    "answer": "await pauses until an asynchronous result is ready."
+  },
+  {
+    "question": "What is an event loop?",
+    "answer": "An event loop schedules asynchronous tasks."
+  },
+  {
+    "question": "What is aiohttp?",
+    "answer": "aiohttp supports asynchronous HTTP communication."
+  },
+  {
+    "question": "What is socket programming?",
+    "answer": "Socket programming enables network communication."
+  },
+  {
+    "question": "What is TCP?",
+    "answer": "TCP is a reliable transport protocol."
+  },
+  {
+    "question": "What is UDP?",
+    "answer": "UDP is a lightweight transport protocol."
+  },
+  {
+    "question": "What is HTTP?",
+    "answer": "HTTP transfers web resources between systems."
+  },
+  {
+    "question": "What is HTTPS?",
+    "answer": "HTTPS secures HTTP using encryption."
+  },
+  {
+    "question": "What is a status code?",
+    "answer": "A status code describes an HTTP response."
+  },
+  {
+    "question": "What is authentication?",
+    "answer": "Authentication verifies identity."
+  },
+  {
+    "question": "What is authorization?",
+    "answer": "Authorization determines permissions."
+  },
+  {
+    "question": "What is JWT?",
+    "answer": "JWT is a token-based authentication format."
+  },
+  {
+    "question": "What is ORM?",
+    "answer": "An ORM maps objects to database records."
+  },
+  {
+    "question": "What is migration?",
+    "answer": "A migration updates database schema changes."
+  },
+  {
+    "question": "What is a primary key?",
+    "answer": "A primary key uniquely identifies a record."
+  },
+  {
+    "question": "What is a foreign key?",
+    "answer": "A foreign key links related tables."
+  },
+  {
+    "question": "What is normalization?",
+    "answer": "Normalization reduces database redundancy."
+  },
+  {
+    "question": "What is caching?",
+    "answer": "Caching stores data for faster access."
+  },
+  {
+    "question": "What is Redis?",
+    "answer": "Redis is an in-memory data store."
+  },
+  {
+    "question": "What is Docker?",
+    "answer": "Docker packages applications into containers."
+  },
+  {
+    "question": "What is a container?",
+    "answer": "A container isolates application environments."
+  },
+  {
+    "question": "What is CI/CD?",
+    "answer": "CI/CD automates testing and deployment."
+  },
+  {
+    "question": "What is Git?",
+    "answer": "Git is a version control system."
+  },
+  {
+    "question": "What is GitHub?",
+    "answer": "GitHub hosts Git repositories online."
+  },
+  {
+    "question": "What is branching?",
+    "answer": "Branching creates independent development lines."
+  },
+  {
+    "question": "What is merging?",
+    "answer": "Merging combines changes from branches."
+  },
+  {
+    "question": "What is a pull request?",
+    "answer": "A pull request proposes code changes."
+  },
+  {
+    "question": "What is code review?",
+    "answer": "Code review evaluates code quality."
+  },
+  {
+    "question": "What is linting?",
+    "answer": "Linting detects style and code issues."
+  },
+  {
+    "question": "What is black?",
+    "answer": "Black is an automatic Python formatter."
+  },
+  {
+    "question": "What is flake8?",
+    "answer": "flake8 checks style and coding errors."
+  },
+  {
+    "question": "What is mypy?",
+    "answer": "mypy performs static type checking."
+  },
+  {
+    "question": "What is coverage testing?",
+    "answer": "Coverage testing measures tested code portions."
+  },
+  {
+    "question": "What is integration testing?",
+    "answer": "Integration testing verifies component interactions."
+  },
+  {
+    "question": "What is mocking?",
+    "answer": "Mocking simulates dependencies during tests."
+  },
+  {
+    "question": "What is Test-Driven Development?",
+    "answer": "Test-Driven Development writes tests before code."
+  },
+  {
+    "question": "What is refactoring?",
+    "answer": "Refactoring improves code without changing behavior."
+  },
+  {
+    "question": "What is technical debt?",
+    "answer": "Technical debt represents future maintenance costs."
+  },
+  {
+    "question": "What is clean code?",
+    "answer": "Clean code is readable and maintainable."
+  },
+  {
+    "question": "What is a context switch?",
+    "answer": "A context switch changes execution between tasks."
+  },
+  {
+    "question": "What is id()?",
+    "answer": "id() returns an object's unique identifier."
+  },
+  {
+    "question": "What is callable()?",
+    "answer": "callable() checks whether an object can be called."
+  }
+]
